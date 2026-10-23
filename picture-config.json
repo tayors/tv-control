@@ -1,0 +1,16 @@
+{
+  "dim_lux": 34.0,
+  "bright_lux": 175.0,
+  "dim_brightness": 30,
+  "bright_brightness": 55,
+  "max_step": 3,
+  "deadband": 2,
+  "max_sensor_age_seconds": 30,
+  "allowed_picture_modes": [
+    3
+  ],
+  "max_eligible_backlight": 85,
+  "manual_hold_seconds": 3600,
+  "poll_interval_seconds": 10,
+  "strategy": "learned"
+}

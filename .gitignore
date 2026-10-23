@@ -1,0 +1,26 @@
+# Local runtime, learning history, diagnostics and downloaded media
+/runtime/
+/diagnostics/
+/patterns/
+/.impeccable/
+/design/native-previews/
+/native/latest-snapshot.json
+/native/control-proof.json
+/native/api-evidence.json
+
+# Build outputs and caches
+*.app/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+core
+core.*
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+adbkey*

@@ -1,0 +1,1551 @@
+{
+  "framework_sha256": "c14f5ea2d1374ab5a6abeae0c6bbfa15a6a0129a12aad7908332c62fc44a4600",
+  "service": "tcl_tv_display",
+  "methods": {
+    "<clinit>": {
+      "arguments": [],
+      "returns": "V"
+    },
+    "addCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "Z",
+      "transaction": 24
+    },
+    "addDDCCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "I",
+      "transaction": 162
+    },
+    "asBinder": {
+      "arguments": [],
+      "returns": "Landroid/os/IBinder;"
+    },
+    "autoPcAdjust": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 17
+    },
+    "deleteCalFile": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 170
+    },
+    "dumpThalParam": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 150
+    },
+    "exportCalFile": {
+      "arguments": [
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "I",
+      "transaction": 169
+    },
+    "get24p": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 111
+    },
+    "getALLMMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 127
+    },
+    "getAipqEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 87
+    },
+    "getAisrEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 195
+    },
+    "getAspectRatio": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 5
+    },
+    "getAutoAFDEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 14
+    },
+    "getBacklight": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 101
+    },
+    "getBlackStretch": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 40
+    },
+    "getBlueStretch": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 42
+    },
+    "getBrightness": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 30
+    },
+    "getBypassStatus": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 149
+    },
+    "getCalDate": {
+      "arguments": [],
+      "returns": "Ljava/lang/String;",
+      "transaction": 167
+    },
+    "getCalFileList": {
+      "arguments": [],
+      "returns": "Ljava/util/List;",
+      "transaction": 171
+    },
+    "getCalStatus": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 166
+    },
+    "getColorEnhance": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 71
+    },
+    "getColorSpaceData": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/pq/VideoColorInfo;",
+      "transaction": 75
+    },
+    "getColorSpaceMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 73
+    },
+    "getColorTemperature": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 54
+    },
+    "getContrast": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 32
+    },
+    "getCustGammaCurveData": {
+      "arguments": [],
+      "returns": "Ljava/util/List;",
+      "transaction": 65
+    },
+    "getCustGammaCurveEnable": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 62
+    },
+    "getCustGammaCurvePoint": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 189
+    },
+    "getCustGammaPoints": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 63
+    },
+    "getCustWhiteBalanceEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 56
+    },
+    "getDBCLevel": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 103
+    },
+    "getDDMMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 131
+    },
+    "getDLGMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 129
+    },
+    "getDarkEnhance": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 144
+    },
+    "getDeContour": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 50
+    },
+    "getDefaultData": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 135
+    },
+    "getDolbyApoEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 89
+    },
+    "getDolbyGameStatus": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 161
+    },
+    "getDynamicContrast": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 48
+    },
+    "getDynamicToneMapping": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 91
+    },
+    "getEotfPeak": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 174
+    },
+    "getFunctionIsSupport": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 156
+    },
+    "getGameModeConfig": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 160
+    },
+    "getGamePicutreModeType": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 158
+    },
+    "getGammaLevel": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 52
+    },
+    "getHDRToneMappingAdjust": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 146
+    },
+    "getHdrMode": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 172
+    },
+    "getHue": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 34
+    },
+    "getInputColorFormat": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 119
+    },
+    "getInputColorRange": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 121
+    },
+    "getIpqCustGammaCurveData": {
+      "arguments": [],
+      "returns": "Ljava/util/List;",
+      "transaction": 67
+    },
+    "getLedMotionClarity": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 85
+    },
+    "getLightSensorOnoff": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 107
+    },
+    "getLocalDimming": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 97
+    },
+    "getLocalDimmingCol": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 133
+    },
+    "getLocalDimmingData": {
+      "arguments": [],
+      "returns": "[I",
+      "transaction": 134
+    },
+    "getLocalDimmingRow": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 132
+    },
+    "getLowBlueRay": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 109
+    },
+    "getLowlantency": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 142
+    },
+    "getMemcBlur": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 81
+    },
+    "getMemcConfig": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 79
+    },
+    "getMemcJudder": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 83
+    },
+    "getMethod": {
+      "arguments": [
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "Ljava/lang/String;",
+      "transaction": 20
+    },
+    "getMicroDimming": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 99
+    },
+    "getMixDimming": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 105
+    },
+    "getMotionClarity": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 77
+    },
+    "getMpegNR": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 46
+    },
+    "getNR": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 44
+    },
+    "getOption": {
+      "arguments": [
+        "I",
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "Ljava/lang/String;",
+      "transaction": 186
+    },
+    "getOutputRect": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/display/WindowRect;",
+      "transaction": 181
+    },
+    "getOverScanEnable": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 10
+    },
+    "getOverScanValue": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/display/WindowRect;",
+      "transaction": 12
+    },
+    "getPQ5PointCurve": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/pq/VideoAdjustment;",
+      "transaction": 95
+    },
+    "getPQDemoMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 123
+    },
+    "getPairingStatus": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 165
+    },
+    "getPanelFrameRate": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 140
+    },
+    "getPictureMode": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 27
+    },
+    "getPictureType": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 113
+    },
+    "getRGBMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 69
+    },
+    "getRgbContentAdpt": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 139
+    },
+    "getRgbSensor": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 137
+    },
+    "getSaturation": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 38
+    },
+    "getSdr2Hdr": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 93
+    },
+    "getSharpness": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 36
+    },
+    "getSignalInfo": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 21
+    },
+    "getTvInputVideoInfo": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/display/TvInputVideoInfo;",
+      "transaction": 1
+    },
+    "getTvVideoInfo": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/pq/TvVideoInfo;",
+      "transaction": 23
+    },
+    "getVRRMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 125
+    },
+    "getVgaParameter": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/display/VgaParameter;",
+      "transaction": 16
+    },
+    "getVideoEOTFMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 117
+    },
+    "getVideoReferenceStandard": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 115
+    },
+    "getViewAngle": {
+      "arguments": [],
+      "returns": "I",
+      "transaction": 152
+    },
+    "getVrrRefreshRate": {
+      "arguments": [],
+      "returns": "F",
+      "transaction": 147
+    },
+    "getWhiteBalanceGain": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/pq/VideoColorInfo;",
+      "transaction": 58
+    },
+    "getWhiteBalanceOffset": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/pq/VideoColorInfo;",
+      "transaction": 60
+    },
+    "getWindowID": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 2
+    },
+    "getWindowMute": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 7
+    },
+    "getWindowMuteLevel": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 8
+    },
+    "getWindowRect": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Lcom/tcl/tv/display/WindowRect;",
+      "transaction": 3
+    },
+    "importCalFile": {
+      "arguments": [
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "I",
+      "transaction": 168
+    },
+    "reinitGamma": {
+      "arguments": [],
+      "returns": "Z",
+      "transaction": 155
+    },
+    "removeCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "Z",
+      "transaction": 25
+    },
+    "removeDDCCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "I",
+      "transaction": 163
+    },
+    "removeDisplayCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/display/ITvDisplayCB;"
+      ],
+      "returns": "Z",
+      "transaction": 197
+    },
+    "resetPQFunction": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 28
+    },
+    "set24p": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 110
+    },
+    "set3DlutRGB": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "Ljava/util/List;"
+      ],
+      "returns": "Z",
+      "transaction": 180
+    },
+    "setALLMMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 126
+    },
+    "setAipqEnable": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 86
+    },
+    "setAisrEnable": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 194
+    },
+    "setApplyAll": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 183
+    },
+    "setAspectRatio": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 4
+    },
+    "setAutoAFDEnable": {
+      "arguments": [
+        "I",
+        "Z",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 13
+    },
+    "setBacklight": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 100
+    },
+    "setBacklightConstant": {
+      "arguments": [
+        "Z"
+      ],
+      "returns": "Z",
+      "transaction": 191
+    },
+    "setBacklightConstantCallback": {
+      "arguments": [
+        "Z",
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "Z",
+      "transaction": 190
+    },
+    "setBlackStretch": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 39
+    },
+    "setBlueStretch": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 41
+    },
+    "setBrightness": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 29
+    },
+    "setBypassStatus": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 148
+    },
+    "setCallback": {
+      "arguments": [
+        "Lcom/tcl/tv/display/ITvDisplayCB;"
+      ],
+      "returns": "Z",
+      "transaction": 18
+    },
+    "setColorEnhance": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 70
+    },
+    "setColorSpaceData": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "Lcom/tcl/tv/pq/VideoColorInfo;",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 74
+    },
+    "setColorSpaceMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 72
+    },
+    "setColorTemperature": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 53
+    },
+    "setContrast": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 31
+    },
+    "setCountry": {
+      "arguments": [
+        "Ljava/lang/String;"
+      ],
+      "returns": "Z",
+      "transaction": 177
+    },
+    "setCustGammaCurveData": {
+      "arguments": [
+        "I",
+        "Ljava/util/List;",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 64
+    },
+    "setCustGammaCurveEnable": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 61
+    },
+    "setCustGammaCurvePoint": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 188
+    },
+    "setCustWhiteBalanceEnable": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 55
+    },
+    "setDBCLevel": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 102
+    },
+    "setDDMMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 130
+    },
+    "setDLGMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 128
+    },
+    "setDarkEnhance": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 143
+    },
+    "setDeContour": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 49
+    },
+    "setDisplayWindow": {
+      "arguments": [
+        "I",
+        "Lcom/tcl/tv/display/WindowRect;"
+      ],
+      "returns": "Z",
+      "transaction": 22
+    },
+    "setDolbyApoEnable": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 88
+    },
+    "setDolbyCfgPath": {
+      "arguments": [
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "Z",
+      "transaction": 187
+    },
+    "setDynamicContrast": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 47
+    },
+    "setDynamicToneMapping": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 90
+    },
+    "setEotfPeak": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 175
+    },
+    "setFacPMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 153
+    },
+    "setFacWarmMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 154
+    },
+    "setGameModeConfig": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 159
+    },
+    "setGamePictureModeType": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 157
+    },
+    "setGammaData": {
+      "arguments": [
+        "I",
+        "Ljava/util/List;",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 178
+    },
+    "setGammaLevel": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 51
+    },
+    "setHDRToneMappingAdjust": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 145
+    },
+    "setHdrMode": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 173
+    },
+    "setHotLoad": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 184
+    },
+    "setHue": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 33
+    },
+    "setInputColorFormat": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 118
+    },
+    "setInputColorRange": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 120
+    },
+    "setIpqCustGammaCurveData": {
+      "arguments": [
+        "Ljava/util/List;",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 66
+    },
+    "setLedMotionClarity": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 84
+    },
+    "setLightSensorOnoff": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 106
+    },
+    "setLocalDimming": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 96
+    },
+    "setLowBlueRay": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 108
+    },
+    "setLowlantency": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 141
+    },
+    "setMemcBlur": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 80
+    },
+    "setMemcConfig": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 78
+    },
+    "setMemcJudder": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 82
+    },
+    "setMethod": {
+      "arguments": [
+        "I",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;"
+      ],
+      "returns": "Z",
+      "transaction": 19
+    },
+    "setMicroDimming": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 98
+    },
+    "setMixDimming": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 104
+    },
+    "setMotionClarity": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 76
+    },
+    "setMpegNR": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 45
+    },
+    "setMuteConstant": {
+      "arguments": [
+        "Z"
+      ],
+      "returns": "Z",
+      "transaction": 193
+    },
+    "setMuteConstantCallback": {
+      "arguments": [
+        "Z",
+        "Lcom/tcl/tv/pq/ITvPqCallback;"
+      ],
+      "returns": "Z",
+      "transaction": 192
+    },
+    "setNR": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 43
+    },
+    "setOption": {
+      "arguments": [
+        "I",
+        "I",
+        "Ljava/lang/String;"
+      ],
+      "returns": "Z",
+      "transaction": 185
+    },
+    "setOptionStream": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "[B"
+      ],
+      "returns": "Z",
+      "transaction": 196
+    },
+    "setOverScanEnable": {
+      "arguments": [
+        "I",
+        "Z",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 9
+    },
+    "setOverScanValue": {
+      "arguments": [
+        "I",
+        "Lcom/tcl/tv/display/WindowRect;",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 11
+    },
+    "setPQ5PointCurve": {
+      "arguments": [
+        "I",
+        "Lcom/tcl/tv/pq/VideoAdjustment;"
+      ],
+      "returns": "Z",
+      "transaction": 94
+    },
+    "setPQDemoMode": {
+      "arguments": [
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 122
+    },
+    "setPairing": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "I",
+      "transaction": 164
+    },
+    "setPictureMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 26
+    },
+    "setPictureModeByType": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 182
+    },
+    "setPictureType": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 112
+    },
+    "setRGBMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 68
+    },
+    "setRgbContentAdpt": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 138
+    },
+    "setRgbSensor": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 136
+    },
+    "setSaturation": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 37
+    },
+    "setSdr2Hdr": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 92
+    },
+    "setSharpness": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 35
+    },
+    "setStrOnoff": {
+      "arguments": [
+        "Z"
+      ],
+      "returns": "Z",
+      "transaction": 176
+    },
+    "setVRRMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 124
+    },
+    "setVgaParameter": {
+      "arguments": [
+        "I",
+        "Lcom/tcl/tv/display/VgaParameter;",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 15
+    },
+    "setVideoEOTFMode": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 116
+    },
+    "setVideoReferenceStandard": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 114
+    },
+    "setViewAngle": {
+      "arguments": [
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 151
+    },
+    "setWhiteBalanceGain": {
+      "arguments": [
+        "I",
+        "I",
+        "Lcom/tcl/tv/pq/VideoColorInfo;",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 57
+    },
+    "setWhiteBalanceOffset": {
+      "arguments": [
+        "I",
+        "I",
+        "Lcom/tcl/tv/pq/VideoColorInfo;",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 59
+    },
+    "setWhiteBalancePattern": {
+      "arguments": [
+        "I",
+        "Z",
+        "I",
+        "I",
+        "I"
+      ],
+      "returns": "Z",
+      "transaction": 179
+    },
+    "setWindowMute": {
+      "arguments": [
+        "I",
+        "I",
+        "I",
+        "Z"
+      ],
+      "returns": "Z",
+      "transaction": 6
+    }
+  }
+}
